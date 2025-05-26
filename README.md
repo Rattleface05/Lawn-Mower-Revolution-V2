@@ -16,7 +16,7 @@ Este clasa pe care se bazeaza fiecare alta clasa a jocului, ea pastreaza pozitia
 Contine o varabila "position" care ii pastreaza pozitia.
 
 ## Player:  
-Clasa jucatorului, derivata din Entity, este cea de care te folosesti pentru a interactiona cu gazonul.  
+Clasa jucatorului, derivata din Entity, si implementarea singleton-ului este cea de care te folosesti pentru a interactiona cu gazonul.  
 Contine textura, sprite-ul si valoarea de damage a jucatorului, si o functie pentru a creste damage-ul sau.
 
 ## Enemy:
@@ -31,6 +31,9 @@ Contine o textura, care este incarcata o singura data de catre program si folosi
 ## Weed:
 O iarba mai puternica. Apare mai tarziu si este mai greu taiat, dar ofera puncte duble.
 Asemenea clasei Grass, este o derivata a lui Enemy, cu o textura unica, dar cu mai mult HP.
+
+## Enemy Factory:
+Implementarea design pattern-ului factory, utilizat pentru a returna cele doua tipuri de inamici.
 
 
 # Bibliografie
