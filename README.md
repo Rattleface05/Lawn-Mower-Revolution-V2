@@ -1,5 +1,5 @@
 # Lawn-Mower-Revolution
-The Second Project for my OOP class
+The Third Project for my OOP class
 
 # Compilare
 Programul a fost scris pe o masina Linux, daca exista erori de incarcare a texturilor din file, asta probabil este motivul.  
